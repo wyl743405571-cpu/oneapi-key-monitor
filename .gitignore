@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local / runtime state — never commit these
+.env
+*.log
+pool_state.json
+/var/
+
+# Gateway DBs (in case someone runs it from the repo dir)
+*.db
+*.db-shm
+*.db-wal
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
